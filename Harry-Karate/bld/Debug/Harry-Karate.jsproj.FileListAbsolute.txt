@@ -1,0 +1,15 @@
+C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\bin\Debug\ReverseMap\resources.pri
+C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\bin\Debug\AppxManifest.xml
+C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\bin\Debug\Harry-Karate.build.appxrecipe
+C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\bld\Debug\priconfig.xml
+C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\bld\Debug\priconfig.xml.intermediate
+C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\bld\Debug\layout.resfiles
+C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\bld\Debug\layout.resfiles.intermediate
+C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\bld\Debug\resources.resfiles
+C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\bld\Debug\resources.resfiles.intermediate
+C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\bld\Debug\pri.resfiles
+C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\bld\Debug\pri.resfiles.intermediate
+C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\bld\Debug\qualifiers.txt
+C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\bld\Debug\qualifiers.txt.intermediate
+C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\bld\Debug\ProjectArchitectures.txt

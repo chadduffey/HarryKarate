@@ -1,0 +1,9 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.scale-140"
+"ResourceDimensions"		"scale-140"
+
+[Files]
+"C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\bld\Release\split.scale-140.pri"			"resources.pri"
+"C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\bld\Release\PackageLayout\images\Square70x70Logo.scale-140.png"			"images\Square70x70Logo.scale-140.png"
+"C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\bld\Release\PackageLayout\images\splashscreen.scale-140.png"			"images\splashscreen.scale-140.png"
+"C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\bld\Release\PackageLayout\images\logo.scale-140.png"			"images\logo.scale-140.png"

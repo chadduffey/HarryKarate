@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='C:\ProgramData\Windows App Certification Kit\results.xsl'?>
+<REPORT OVERALL_RESULT="PASS" VERSION="3.1" LATEST_VERSION="TRUE" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="X64" SecureBoot="FALSE" APP_TYPE="WindowsStore" PUBLISHER_DISPLAY_NAME="Harry Duff" OSVERSION="6.3.9600.0" OS="Microsoft Windows 8.1" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="1033" VALIDATION_TYPE="UI" ReportGenerationTime="2/8/2014 8:04:57 PM" ID="4762b71d6e22c028a8fe9676961fbcb5">
+  <REQUIREMENTS>
+    <REQUIREMENT NUMBER="1" TITLE="Clean reversible install test" RATIONALE="A clean, reversible, installation allows users to successfully manage (deploy, and remove) applications on their system." />
+    <REQUIREMENT NUMBER="2" TITLE="Install to the correct folders test" RATIONALE="Windows provides specific locations in the file system to store programs and software components, shared application data, and application data specific to a user." />
+    <REQUIREMENT NUMBER="3" TITLE="Digitally signed file test" RATIONALE="An Authenticode digital signature allows users to be sure that the software is genuine. It also allows detection if a file has been tampered with e.g. infected by a virus." />
+    <REQUIREMENT NUMBER="4" TITLE="Support x64 Windows test" RATIONALE="To maintain compatibility with 64-bit versions of Windows, it is necessary that applications should natively support 64-bit or at minimum 32-bit Windows based applications to run seamlessly on 64-bit." />
+    <REQUIREMENT NUMBER="5" TITLE="OS version checking test" RATIONALE="Applications must not perform version checks for equality (== 5.1). If you need a specific feature, check whether the feature is available. If you need Windows XP, check for Windows XP or later (&gt;= 5.1), This way, your detection code will continue to work on future versions of Windows. Driver installers and uninstall modules should never check the OS version." />
+    <REQUIREMENT NUMBER="6" TITLE="User account control (UAC) test" RATIONALE="Most applications do not require administrator privileges at run time, and should be just fine running as a standard-user. Windows applications must have a manifest (embedded or external) to define its execution level that tells OS the privileges needed to run the application." />
+    <REQUIREMENT NUMBER="7" TITLE="Adhere to system restart manager messages" RATIONALE="In a critical shutdown, applications that return FALSE to WM_QUERYENDSESSION will be sent WM_ENDSESSION and closed, while those that time out in response to WM_QUERYENDSESSION will be terminated." />
+    <REQUIREMENT NUMBER="8" TITLE="Safe mode test" RATIONALE="By default, most drivers and services that did not come preinstalled with Windows are not started in Safe Mode. They should remain disabled unless they are needed for basic operations of the system or for diagnostic and recovery purposes." />
+    <REQUIREMENT NUMBER="9" TITLE="Multiuser session test" RATIONALE="Windows users should be able to run concurrent sessions without conflict or disruption.  Applications must ensure that when running in multiple sessions either locally or remotely, the normal functionality of the application should not be impacted. Application settings and data files should not be persisted across users. A user’s privacy and preferences should be isolated to the user’s session." />
+    <REQUIREMENT NUMBER="10" TITLE="Crashes and hangs test" RATIONALE="Application failures such as crashes and hangs are a major disruption to users and cause frustration. Eliminating such failures improves application stability and reliability, and overall, provides users with a better application experience.">
+      <TEST INDEX="21" NAME="Crashes and hangs" DESCRIPTION="Do not crash or hang during the testing process." EXECUTIONTIME="00h:00m:06s.07ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="11" TITLE="Compatibility and resiliency test" RATIONALE="When Windows detects that an application has operated in an incompatible manner, it applies a compatibility fix that causes the application to behave correctly, ensuring a positive user experience. Applications should not rely on this behavior since it is only provided to allow legacy applications to work correctly on Windows." />
+    <REQUIREMENT NUMBER="12" TITLE="App manifest compliance test" RATIONALE="The package manifest was missing one or more required attributes.">
+      <TEST INDEX="31" NAME="App manifest" DESCRIPTION="App manifest must include valid entries for all required fields." EXECUTIONTIME="00h:00m:03s.94ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="13" TITLE="Windows security best practices test" RATIONALE="An application should not change the default Windows security settings." />
+    <REQUIREMENT NUMBER="14" TITLE="Windows security features test" RATIONALE="Applications must opt-into Windows security features.">
+      <TEST INDEX="33" NAME="Binary analyzer" DESCRIPTION="Analysis of security features enabled on binaries" EXECUTIONTIME="00h:00m:01s.96ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="70" NAME="Banned file analyzer" DESCRIPTION="Analysis of application to detect known insecure files" EXECUTIONTIME="00h:00m:02s.72ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="62" NAME="Private code signing" DESCRIPTION="App should not package private code signing key files." EXECUTIONTIME="00h:00m:05s.06ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="15" TITLE="Supported API test" RATIONALE="The application should only refer to the APIs allowed by the Windows SDK for Windows Store Apps.">
+      <TEST INDEX="38" NAME="Supported APIs" DESCRIPTION="Windows Store App must only use supported platform APIs." EXECUTIONTIME="00h:00m:03s.46ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="17" TITLE="Performance test" RATIONALE="The application should have a fast and responsive launch and suspend experience while consuming a reasonable amount of system resources (CPU, File IO, Memory etc.) to enable fast switching and multitasking between previously unopened applications.">
+      <TEST INDEX="50" NAME="Bytecode generation" DESCRIPTION="Byte code generation should be able to complete successfully for packages containing an HTML5 Windows Store app." EXECUTIONTIME="00h:00m:04s.71ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="60" NAME="Optimized binding references" DESCRIPTION="When using bindings, WinJS.Binding.optimizeBindingReferences should be set to true to optimize the memory usage." EXECUTIONTIME="00h:00m:06s.71ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="43" NAME="Performance launch" DESCRIPTION="Application should have a responsive launch time with reasonable CPU, File IO and Memory usage" EXECUTIONTIME="00h:02m:54s.94ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="44" NAME="Performance suspend" DESCRIPTION="Application should have a responsive suspend with reasonable CPU and File IO usage" EXECUTIONTIME="00h:02m:26s.87ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="19" TITLE="App manifest resources test" RATIONALE="The App Package Manifest should have valid resources defined in the resources.pri file, as per the App Packaging Specification and App Manifest Schema.">
+      <TEST INDEX="45" NAME="App resources validation" DESCRIPTION="The package should have valid resources defined in the resources.pri file." EXECUTIONTIME="00h:00m:00s.71ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="61" NAME="Branding validation" DESCRIPTION="App should not use the default images packed by windows SDK samples or Visual Studio." EXECUTIONTIME="00h:00m:06s.64ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="20" TITLE="Debug configuration test" RATIONALE="The App should not install any debug binaries.">
+      <TEST INDEX="46" NAME="Debug configuration" DESCRIPTION="The App should not install any debug binaries." EXECUTIONTIME="00h:00m:04s.39ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="21" TITLE="File encoding test" RATIONALE="Packages containing an HTML5 Windows Store app must have correct file encoding.">
+      <TEST INDEX="49" NAME="UTF-8 file encoding" DESCRIPTION="Packages containing an HTML5 Windows Store app must have correct file encoding." EXECUTIONTIME="00h:00m:04s.33ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="22" TITLE="Direct3D Feature Test" RATIONALE="App should use the Direct3D capability correctly.">
+      <TEST INDEX="51" NAME="Direct3D feature level support" DESCRIPTION="Applications must render content on Direct3D feature level 9.1 hardware." EXECUTIONTIME="00h:00m:07s.37ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="71" NAME="Direct3D Trim after Suspend" DESCRIPTION="Applications must call IDXGIDevice3::Trim() on the Direct3D devices they create when handling a Suspend notification." EXECUTIONTIME="00h:00m:01s.71ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="23" TITLE="App Capabilities test" RATIONALE="Packages declaring special-use capabilities will have to provide justifications during the onboarding process.">
+      <TEST INDEX="52" NAME="Special use capabilities" DESCRIPTION="Packages declaring special-use capabilities will have to provide justifications during the onboarding process." EXECUTIONTIME="00h:00m:02s.83ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="24" TITLE="Windows Runtime metadata validation" RATIONALE="Metadata needs to be conformant and consistent across all generation sources.">
+      <TEST INDEX="56" NAME="ExclusiveTo attribute test" DESCRIPTION="A class must not implement an interface that is marked ExclusiveTo another class." EXECUTIONTIME="00h:00m:04s.07ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="57" NAME="Type location test" DESCRIPTION="Types must be defined in the metadata file with the longest matching namespace." EXECUTIONTIME="00h:00m:01s.03ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="55" NAME="Type name case-sensitivity test" DESCRIPTION="Namespace and type names must not vary only by casing." EXECUTIONTIME="00h:00m:01s.04ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="54" NAME="Type name correctness test" DESCRIPTION="Only system types can be in the Windows namespace and no types can be in the global namespace." EXECUTIONTIME="00h:00m:01s.76ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="58" NAME="General metadata correctness test" DESCRIPTION="Metadata files must meet various requirements in order to be valid and correct." EXECUTIONTIME="00h:00m:04s.08ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="53" NAME="Properties test" DESCRIPTION="Write-only and indexer properties may not be used. Corresponding getter and setter methods must match in type." EXECUTIONTIME="00h:00m:01s.36ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="25" TITLE="Package sanity test" RATIONALE="Validation of the app package contents to ensure correctness.">
+      <TEST INDEX="63" NAME="Platform appropriate files" DESCRIPTION="App should not install files that do not match the target processor architecture." EXECUTIONTIME="00h:00m:06s.84ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="66" NAME="Supported directory structure check" DESCRIPTION="Validate each file in the package for that the file name length should be less than MAX_PATH." EXECUTIONTIME="00h:00m:02s.39ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="26" TITLE="High-DPI support" RATIONALE="The application needs to set DPI-aware to make the UI look consistently good across a wide variety of high-DPI display settings." />
+    <REQUIREMENT NUMBER="27" TITLE="Resource Usage Test" RATIONALE="WinJS background tasks need to call close() to free resource.">
+      <TEST INDEX="68" NAME="WinJS background task test" DESCRIPTION="WinJS background tasks need to call close() to free resource." EXECUTIONTIME="00h:00m:06s.02ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+  </REQUIREMENTS>
+  <APPLICATIONS>
+    <Installed_Programs>
+      <Program Name="42044HarryDuff.HarryKarate" Type="Application" Source="AppxPackage" Publisher="CN=21108305-9C4F-487F-B259-35F3790D5343" Version="1.1.0.4" Language="1033" OnSystemDrive="true" RootDirPath="C:\Program Files\WindowsApps\42044HarryDuff.HarryKarate_1.1.0.4_neutral__rwj646rexjwct" PathEvidenceId="0xa" RNP="0x1" DNP="0xd" EvidenceId="0xa" Id="000017913c28aefae7b01e1de5e752b3b50000000904">
+        <Indicators>
+          <DirectoryIndicators>
+            <Directory Name="microsoft.system.package.metadata" Path="c:\program files\windowsapps\42044harryduff.harrykarate_1.1.0.4_neutral__rwj646rexjwct\microsoft.system.package.metadata" RNP="0x9" DNP="0xb" UniqueId="0x1a" Id="00003e541c559d426fb695efcdd5e81656905b8a8c18" />
+            <Directory Name="js" Path="c:\program files\windowsapps\42044harryduff.harrykarate_1.1.0.4_neutral__rwj646rexjwct\js" RNP="0x9" DNP="0xb" UniqueId="0x14" Id="0000ed830a2cad918e620bb3cae846c3985ea8ddae26" />
+            <Directory Name="game-media" Path="c:\program files\windowsapps\42044harryduff.harrykarate_1.1.0.4_neutral__rwj646rexjwct\game-media" RNP="0x9" DNP="0xb" UniqueId="0xf" Id="0000129ffef56b5ab6e66d6cb2a92d0824d475f154e4" />
+            <Directory Name="42044harryduff.harrykarate_1.1.0.4_neutral__rwj646rexjwct" Path="c:\program files\windowsapps\42044harryduff.harrykarate_1.1.0.4_neutral__rwj646rexjwct" RNP="0x9" DNP="0xb" UniqueId="0xb" Id="0000aff22d5833909824bdf662cee28fcd60f7a404d3" />
+          </DirectoryIndicators>
+          <WindowsStoreAppManifestIndicators>
+            <PackageManifest PackageFullName="42044harryduff.harrykarate_1.1.0.4_neutral__rwj646rexjwct">
+              <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:build="http://schemas.microsoft.com/developer/appx/2012/build" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+                <Identity Name="42044HarryDuff.HarryKarate" Version="1.1.0.4" Publisher="CN=21108305-9C4F-487F-B259-35F3790D5343" ProcessorArchitecture="neutral" />
+                <Properties>
+                  <DisplayName>Harry Karate</DisplayName>
+                  <PublisherDisplayName>Harry Duff</PublisherDisplayName>
+                  <Logo>images\storelogo.png</Logo>
+                </Properties>
+                <Prerequisites>
+                  <OSMinVersion>6.3.0</OSMinVersion>
+                  <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+                </Prerequisites>
+                <Resources>
+                  <Resource Language="EN-US" />
+                  <Resource m2:Scale="100" />
+                </Resources>
+                <Applications>
+                  <Application Id="App" StartPage="default.html">
+                    <m2:VisualElements DisplayName="Harry Karate" Description="Harry-Karate. Messing around with the PGSK and modifying the example Rubba Rabbit written by McFunkypants with my son to learn about game building." ForegroundText="light" BackgroundColor="#464646" Square150x150Logo="images\Logo.png" Square30x30Logo="images\SmallLogo.png" ToastCapable="false">
+                      <m2:DefaultTile ShortName="Harry Karate" Square70x70Logo="images\Square70x70Logo.png" DefaultSize="square150x150Logo">
+                        <m2:ShowNameOnTiles>
+                          <m2:ShowOn Tile="square150x150Logo" />
+                        </m2:ShowNameOnTiles>
+                      </m2:DefaultTile>
+                      <m2:SplashScreen Image="images\splashscreen.png" />
+                      <m2:InitialRotationPreference>
+                        <m2:Rotation Preference="portrait" />
+                        <m2:Rotation Preference="landscape" />
+                        <m2:Rotation Preference="portraitFlipped" />
+                        <m2:Rotation Preference="landscapeFlipped" />
+                      </m2:InitialRotationPreference>
+                      <m2:ApplicationView MinWidth="width320" />
+                    </m2:VisualElements>
+                  </Application>
+                </Applications>
+                <Dependencies>
+                  <PackageDependency Name="Microsoft.WinJS.2.0" MinVersion="1.0.9600.16408" />
+                </Dependencies>
+              </Package>
+            </PackageManifest>
+            <BundleManifest PackageFamilyName="42044HarryDuff.HarryKarate_rwj646rexjwct">
+              <Bundle SchemaVersion="1.0" xmlns="http://schemas.microsoft.com/appx/2013/bundle">
+                <Identity Name="42044HarryDuff.HarryKarate" Publisher="CN=21108305-9C4F-487F-B259-35F3790D5343" Version="2014.209.358.707" />
+                <Packages>
+                  <Package Type="application" Version="1.1.0.4" Architecture="neutral" FileName="Harry-Karate_1.1.0.4_AnyCPU.appx" Offset="62" Size="2846756">
+                    <Resources>
+                      <Resource Language="EN-US" />
+                      <Resource Scale="100" />
+                    </Resources>
+                  </Package>
+                  <Package Type="resource" Version="1.1.0.4" ResourceId="split.scale-140" FileName="Harry-Karate_1.1.0.4_scale-140.appx" Offset="2846907" Size="63923">
+                    <Resources>
+                      <Resource Scale="140" />
+                    </Resources>
+                  </Package>
+                  <Package Type="resource" Version="1.1.0.4" ResourceId="split.scale-180" FileName="Harry-Karate_1.1.0.4_scale-180.appx" Offset="2910919" Size="81855">
+                    <Resources>
+                      <Resource Scale="180" />
+                    </Resources>
+                  </Package>
+                </Packages>
+              </Bundle>
+            </BundleManifest>
+          </WindowsStoreAppManifestIndicators>
+        </Indicators>
+        <StaticProperties>
+          <Files Id="0000e623334e8886ecb2daeb02c128230f4936aec976">
+            <File Name="tween.js" Id="0000d4b2141f8b295b964de94f1b1f8645dd4500f0fb" Size="0x3228" BinaryType="UNKNOWN" Created="02/09/2014 03:58:33" Modified="02/09/2014 03:58:34" Path="c:\program files\windowsapps\42044harryduff.harrykarate_1.1.0.4_neutral__rwj646rexjwct\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\42044harryduff.harrykarate_1.1.0.4_neutral__rwj646rexjwct\js\tween.js" LongPathHash="000079dcd22db9d7deb0dc6164dffebe137367869e44" UniqueId="0x19" />
+            <File Name="default.html" Id="0000dc726e5718e49d8d85a12afd9dadcb87815f6eed" ShortName="DEFAUL~1.HTM" Size="0x762" BinaryType="UNKNOWN" Created="02/09/2014 03:58:33" Modified="02/09/2014 03:58:33" Path="c:\program files\windowsapps\42044harryduff.harrykarate_1.1.0.4_neutral__rwj646rexjwct" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\42044harryduff.harrykarate_1.1.0.4_neutral__rwj646rexjwct\default.html" LongPathHash="0000c0c2a972d4b4d26fe0201c6059b6969b2389a79d" UniqueId="0xc" />
+            <File Name="S-1-5-21-3122300803-2626837607-154647813-1001-MergedResources-0.pri" Id="000017acea7c04affda1de2a8d7787f858929788e939" ShortName="S-1-5-~1.PRI" Size="0x12f0" BinaryType="UNKNOWN" Created="02/09/2014 03:58:35" Modified="02/09/2014 03:58:35" Path="c:\program files\windowsapps\42044harryduff.harrykarate_1.1.0.4_neutral__rwj646rexjwct\microsoft.system.package.metadata" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\42044harryduff.harrykarate_1.1.0.4_neutral__rwj646rexjwct\microsoft.system.package.metadata\s-1-5-21-3122300803-2626837607-154647813-1001-mergedresources-0.pri" LongPathHash="0000f413896c269ddc770d1f854a68d417751f41c259" UniqueId="0x1b" />
+            <File Name="resources.pri" Id="0000618d373890e169f7b15def8a521dc7b02619173f" ShortName="RESOUR~1.PRI" Size="0x19e8" BinaryType="UNKNOWN" Created="02/09/2014 03:58:33" Modified="02/09/2014 03:58:34" Path="c:\program files\windowsapps\42044harryduff.harrykarate_1.1.0.4_neutral__rwj646rexjwct" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\42044harryduff.harrykarate_1.1.0.4_neutral__rwj646rexjwct\resources.pri" LongPathHash="0000d08427e6bced9b4bbf2f17ea5e992c6809e6b247" UniqueId="0xd" />
+            <File Name="level1.js" Id="0000d9429bee12f48dfb73d8ab4e63d183ef7e3777af" Size="0x30d87" BinaryType="UNKNOWN" Created="02/09/2014 03:58:33" Modified="02/09/2014 03:58:33" Path="c:\program files\windowsapps\42044harryduff.harrykarate_1.1.0.4_neutral__rwj646rexjwct\game-media" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\42044harryduff.harrykarate_1.1.0.4_neutral__rwj646rexjwct\game-media\level1.js" LongPathHash="000024b3bc07c1f3554514761a8479385b13ec1bcd67" UniqueId="0x10" />
+            <File Name="default.js" Id="000010d8f91488e1e6733cdc89e608becb5adcd0ed51" Size="0x5c2" BinaryType="UNKNOWN" Created="02/09/2014 03:58:33" Modified="02/09/2014 03:58:34" Path="c:\program files\windowsapps\42044harryduff.harrykarate_1.1.0.4_neutral__rwj646rexjwct\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\42044harryduff.harrykarate_1.1.0.4_neutral__rwj646rexjwct\js\default.js" LongPathHash="000051889896cecb4bc908a77fa9e04b26cde00e030e" UniqueId="0x15" />
+            <File Name="howler.js" Id="00007d506474fc92a5c92ed3d1df17dbd4b842f644e4" Size="0x5ab1" BinaryType="UNKNOWN" Created="02/09/2014 03:58:33" Modified="02/09/2014 03:58:34" Path="c:\program files\windowsapps\42044harryduff.harrykarate_1.1.0.4_neutral__rwj646rexjwct\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\42044harryduff.harrykarate_1.1.0.4_neutral__rwj646rexjwct\js\howler.js" LongPathHash="0000e4cfc89683f34505ea1d28082f7013df221a79e0" UniqueId="0x16" />
+            <File Name="jaws.js" Id="00004b6b3875212059511b4870b58b717d7d358238ab" Size="0x17184" BinaryType="UNKNOWN" Created="02/09/2014 03:58:33" Modified="02/09/2014 03:58:34" Path="c:\program files\windowsapps\42044harryduff.harrykarate_1.1.0.4_neutral__rwj646rexjwct\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\42044harryduff.harrykarate_1.1.0.4_neutral__rwj646rexjwct\js\jaws.js" LongPathHash="0000ef9027c41ba865afe8e86bf236445861d326b431" UniqueId="0x17" />
+            <File Name="level2.js" Id="00003403fa665d46cd67e2c2db93a7236d0b06fd2a61" Size="0x3101e" BinaryType="UNKNOWN" Created="02/09/2014 03:58:33" Modified="02/09/2014 03:58:34" Path="c:\program files\windowsapps\42044harryduff.harrykarate_1.1.0.4_neutral__rwj646rexjwct\game-media" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\42044harryduff.harrykarate_1.1.0.4_neutral__rwj646rexjwct\game-media\level2.js" LongPathHash="0000d4c96883948ae6ad42b19c20b35c949abc55472e" UniqueId="0x11" />
+            <File Name="level3.js" Id="0000a0e8d3baaf28740d6b7cea4aa334c573262eccb3" Size="0x311f0" BinaryType="UNKNOWN" Created="02/09/2014 03:58:33" Modified="02/09/2014 03:58:34" Path="c:\program files\windowsapps\42044harryduff.harrykarate_1.1.0.4_neutral__rwj646rexjwct\game-media" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\42044harryduff.harrykarate_1.1.0.4_neutral__rwj646rexjwct\game-media\level3.js" LongPathHash="000005ab79d9756ae64d3b9f8f7e391ee8d875d0b30d" UniqueId="0x12" />
+            <File Name="ludus.js" Id="000099131da2b93d8f6d7591e975e048c6e7b6bc5c15" Size="0x165ed" BinaryType="UNKNOWN" Created="02/09/2014 03:58:33" Modified="02/09/2014 03:58:34" Path="c:\program files\windowsapps\42044harryduff.harrykarate_1.1.0.4_neutral__rwj646rexjwct\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\42044harryduff.harrykarate_1.1.0.4_neutral__rwj646rexjwct\js\ludus.js" LongPathHash="00002b5153004ef13e349e93c4b06695daeb90a2c1cb" UniqueId="0x18" />
+          </Files>
+        </StaticProperties>
+      </Program>
+    </Installed_Programs>
+  </APPLICATIONS>
+  <DEPENDENCY_INFORMATION>
+    <AitStaticAnalysis ProgramId="000017913c28aefae7b01e1de5e752b3b50000000904" AnalysisVersion="1.60" DictionaryVersion="2.14" Type="Package" Id="42044HarryDuff.HarryKarate_1.1.0.4_neutral__rwj646rexjwct">
+      <AitFile ErrorCode="0" Name="default.js" Id="000010d8f91488e1e6733cdc89e608becb5adcd0ed51">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Application" />
+          <AitFeature Name="WinJS.Application.sessionState" />
+          <AitFeature Name="WinJS.Binding.optimizeBindingReferences" />
+          <AitFeature Name="WinJS.UI.processAll" />
+          <AitFeature Name="Windows.ApplicationModel.Activation" />
+          <AitFeature Name="window.WinJS" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="level2.js" Id="00003403fa665d46cd67e2c2db93a7236d0b06fd2a61" />
+      <AitFile ErrorCode="0" Name="jaws.js" Id="00004b6b3875212059511b4870b58b717d7d358238ab">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="URL" />
+          <AitFeature Name="document.body.appendChild" />
+          <AitFeature Name="document.createElement" />
+          <AitFeature Name="document.getElementById" />
+          <AitFeature Name="document.getElementsByTagName" />
+          <AitFeature Name="document.oncontextmenu" />
+          <AitFeature Name="navigator.appName" />
+          <AitFeature Name="window" />
+          <AitFeature Name="window.addEventListener" />
+          <AitFeature Name="window.console" />
+          <AitFeature Name="window.console.log" />
+          <AitFeature Name="window.event" />
+          <AitFeature Name="window.location.href.indexOf" />
+          <AitFeature Name="window.location.href.slice" />
+          <AitFeature Name="window.mozRequestAnimationFrame" />
+          <AitFeature Name="window.msRequestAnimationFrame" />
+          <AitFeature Name="window.oRequestAnimationFrame" />
+          <AitFeature Name="window.requestAnimFrame" />
+          <AitFeature Name="window.requestAnimationFrame" />
+          <AitFeature Name="window.setTimeout" />
+          <AitFeature Name="window.webkitRequestAnimationFrame" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="howler.js" Id="00007d506474fc92a5c92ed3d1df17dbd4b842f644e4">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="URL" />
+          <AitFeature Name="window.Howl" />
+          <AitFeature Name="window.Howler" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="ludus.js" Id="000099131da2b93d8f6d7591e975e048c6e7b6bc5c15">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="Windows" />
+          <AitFeature Name="document.addEventListener" />
+          <AitFeature Name="document.createElement" />
+          <AitFeature Name="document.getElementById" />
+          <AitFeature Name="location" />
+          <AitFeature Name="window" />
+          <AitFeature Name="window.Howl" />
+          <AitFeature Name="window.TWEEN" />
+          <AitFeature Name="window.addEventListener" />
+          <AitFeature Name="window.clearInterval" />
+          <AitFeature Name="window.console" />
+          <AitFeature Name="window.innerHeight" />
+          <AitFeature Name="window.innerWidth" />
+          <AitFeature Name="window.jaws" />
+          <AitFeature Name="window.level1" />
+          <AitFeature Name="window.navigator.msMaxTouchPoints" />
+          <AitFeature Name="window.navigator.msPointerEnabled" />
+          <AitFeature Name="window.setInterval" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="level3.js" Id="0000a0e8d3baaf28740d6b7cea4aa334c573262eccb3" />
+      <AitFile ErrorCode="0" Name="tween.js" Id="0000d4b2141f8b295b964de94f1b1f8645dd4500f0fb">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="window.performance" />
+          <AitFeature Name="window.performance.now" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="level1.js" Id="0000d9429bee12f48dfb73d8ab4e63d183ef7e3777af" />
+      <AitFile ErrorCode="0" Name="default.html" Id="0000dc726e5718e49d8d85a12afd9dadcb87815f6eed">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS" />
+          <AitFeature Name="document" />
+          <AitFeature Name="document.body.appendChild" />
+          <AitFeature Name="document.createElement" />
+          <AitFeature Name="window.innerHeight" />
+          <AitFeature Name="window.innerWidth" />
+        </AitCategory>
+      </AitFile>
+    </AitStaticAnalysis>
+  </DEPENDENCY_INFORMATION>
+</REPORT>

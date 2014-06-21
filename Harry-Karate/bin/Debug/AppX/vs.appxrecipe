@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ALLINONE</Machine>
+    <WindowsUser>Chad</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>42044HarryDuff.HarryKarate</PackageIdentityName>
+    <RegisteredManifestChecksum>DA6334E340491EE1E6E570A65D024A8514BFEFE355C1FD3570BF30966EC6F061</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>42044HarryDuff.HarryKarate_1.1.0.3_neutral__rwj646rexjwct</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>42044HarryDuff.HarryKarate_rwj646rexjwct!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>42044HarryDuff.HarryKarate</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=21108305-9C4F-487F-B259-35F3790D5343</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.3</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-02-09T03:55:50.987</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2013-12-27T01:21:59.966</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\button-left.png">
+      <PackagePath>game-media\button-left.png</PackagePath>
+      <Modified>2013-12-23T00:32:02.299</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\button-pause.png">
+      <PackagePath>game-media\button-pause.png</PackagePath>
+      <Modified>2013-12-23T00:32:02.308</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\button-right.png">
+      <PackagePath>game-media\button-right.png</PackagePath>
+      <Modified>2013-12-23T00:32:02.316</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\button-up.png">
+      <PackagePath>game-media\button-up.png</PackagePath>
+      <Modified>2013-12-23T00:32:02.323</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\enemies.png">
+      <PackagePath>game-media\enemies.png</PackagePath>
+      <Modified>2013-12-23T00:32:02.370</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\font.png">
+      <PackagePath>game-media\font.png</PackagePath>
+      <Modified>2013-12-23T00:32:02.422</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\gui.png">
+      <PackagePath>game-media\gui.png</PackagePath>
+      <Modified>2014-01-17T03:26:37.192</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\msgbox.png">
+      <PackagePath>game-media\msgbox.png</PackagePath>
+      <Modified>2013-12-23T00:32:02.963</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\parallax.png">
+      <PackagePath>game-media\parallax.png</PackagePath>
+      <Modified>2014-02-04T03:59:58.595</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\particles.png">
+      <PackagePath>game-media\particles.png</PackagePath>
+      <Modified>2013-12-23T00:32:03.033</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\player.png">
+      <PackagePath>game-media\player.png</PackagePath>
+      <Modified>2014-01-14T05:21:00.356</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\tiles.png">
+      <PackagePath>game-media\tiles.png</PackagePath>
+      <Modified>2014-01-14T05:52:31.848</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\titlescreen.png">
+      <PackagePath>game-media\titlescreen.png</PackagePath>
+      <Modified>2014-01-14T03:25:37.833</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-27T01:45:05.713</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\images\logo.scale-140.png">
+      <PackagePath>images\logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-27T16:32:33.084</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\images\logo.scale-180.png">
+      <PackagePath>images\logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-27T16:31:47.478</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\images\logo.scale-80.png">
+      <PackagePath>images\logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-27T16:34:35.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-27T01:46:24.574</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-29T00:39:53.201</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\images\splashscreen.scale-140.png">
+      <PackagePath>images\splashscreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-29T00:37:05.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\images\splashscreen.scale-180.png">
+      <PackagePath>images\splashscreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-29T00:38:41.180</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-27T16:29:02.782</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\images\Square70x70Logo.scale-140.png">
+      <PackagePath>images\Square70x70Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-27T16:28:10.084</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\images\Square70x70Logo.scale-180.png">
+      <PackagePath>images\Square70x70Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-27T01:43:22.421</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\images\Square70x70Logo.scale-80.png">
+      <PackagePath>images\Square70x70Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-27T16:29:49.269</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-27T01:47:22.678</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\die.mp3">
+      <PackagePath>game-media\die.mp3</PackagePath>
+      <Modified>2013-12-23T00:32:02.334</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\failure.mp3">
+      <PackagePath>game-media\failure.mp3</PackagePath>
+      <Modified>2013-12-23T00:32:02.386</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\jump.mp3">
+      <PackagePath>game-media\jump.mp3</PackagePath>
+      <Modified>2013-12-23T00:32:02.442</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\music.mp3">
+      <PackagePath>game-media\music.mp3</PackagePath>
+      <Modified>2013-12-23T00:32:03.013</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\pickup.mp3">
+      <PackagePath>game-media\pickup.mp3</PackagePath>
+      <Modified>2013-12-23T00:32:03.044</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\start.mp3">
+      <PackagePath>game-media\start.mp3</PackagePath>
+      <Modified>2013-12-23T00:32:03.086</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\success.mp3">
+      <PackagePath>game-media\success.mp3</PackagePath>
+      <Modified>2013-12-23T00:32:03.101</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\swish.mp3">
+      <PackagePath>game-media\swish.mp3</PackagePath>
+      <Modified>2013-12-23T00:32:03.145</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\die.wav">
+      <PackagePath>game-media\die.wav</PackagePath>
+      <Modified>2013-12-23T00:32:02.361</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\failure.wav">
+      <PackagePath>game-media\failure.wav</PackagePath>
+      <Modified>2013-12-23T00:32:02.415</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\jump.wav">
+      <PackagePath>game-media\jump.wav</PackagePath>
+      <Modified>2013-12-23T00:32:02.465</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\pickup.wav">
+      <PackagePath>game-media\pickup.wav</PackagePath>
+      <Modified>2013-12-23T00:32:03.066</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\success.wav">
+      <PackagePath>game-media\success.wav</PackagePath>
+      <Modified>2013-12-23T00:32:03.130</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\swish.wav">
+      <PackagePath>game-media\swish.wav</PackagePath>
+      <Modified>2013-12-23T00:32:03.170</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\failure.ogg">
+      <PackagePath>game-media\failure.ogg</PackagePath>
+      <Modified>2013-12-23T00:32:02.400</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\jump.ogg">
+      <PackagePath>game-media\jump.ogg</PackagePath>
+      <Modified>2013-12-23T00:32:02.454</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\success.ogg">
+      <PackagePath>game-media\success.ogg</PackagePath>
+      <Modified>2013-12-23T00:32:03.114</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\swish.ogg">
+      <PackagePath>game-media\swish.ogg</PackagePath>
+      <Modified>2013-12-23T00:32:03.157</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\level1.js">
+      <PackagePath>game-media\level1.js</PackagePath>
+      <Modified>2014-02-04T04:54:53.881</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\level2.js">
+      <PackagePath>game-media\level2.js</PackagePath>
+      <Modified>2014-02-04T04:54:53.881</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\game-media\level3.js">
+      <PackagePath>game-media\level3.js</PackagePath>
+      <Modified>2014-02-04T04:54:53.881</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\js\ui.js">
+      <PackagePath>js\ui.js</PackagePath>
+      <Modified>2013-07-23T10:56:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\js\base.js">
+      <PackagePath>js\base.js</PackagePath>
+      <Modified>2013-07-23T10:56:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2013-12-23T00:32:03.986</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\js\howler.js">
+      <PackagePath>js\howler.js</PackagePath>
+      <Modified>2013-12-23T00:32:04.008</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\js\jaws.js">
+      <PackagePath>js\jaws.js</PackagePath>
+      <Modified>2013-12-23T00:32:04.042</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\js\ludus.js">
+      <PackagePath>js\ludus.js</PackagePath>
+      <Modified>2014-01-17T03:24:57.777</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\js\tween.js">
+      <PackagePath>js\tween.js</PackagePath>
+      <Modified>2013-12-23T00:32:04.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\app-css\default.css">
+      <PackagePath>app-css\default.css</PackagePath>
+      <Modified>2013-12-23T00:31:54.651</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Chad\Documents\Visual Studio 2013\Projects\Harry-Karate\Harry-Karate\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-02-09T03:55:50.887</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.16408</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.16408</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
